@@ -6,10 +6,14 @@ Represents an entity (e.g., Employees, Students).
 Each table has a unique name.
 Columns define the type of data stored, and rows store the actual data.
 
+<img width="1549" height="555" alt="image" src="https://github.com/user-attachments/assets/72655043-4cb4-44e1-95a1-043d3cac4ad8" />
+
+
 ## Primary Key (PK)
 
 A column (or set of columns) that uniquely identifies each record in the table.
 Cannot have NULL values.
+<img width="1526" height="106" alt="image" src="https://github.com/user-attachments/assets/8ac4ec8e-9a53-4ae9-891d-c223a76be598" />
 
 create table employees (
     id int primary key,
@@ -21,6 +25,7 @@ create table employees (
 
 A column that links to the primary key of another table to maintain relationships.
 Helps maintain referential integrity.
+<img width="1409" height="164" alt="image" src="https://github.com/user-attachments/assets/2443a9c7-6407-4fa2-bedb-b9500dda4500" />
 
 Example:
 
@@ -89,7 +94,7 @@ create table employees (
     salary int
 );
 
-
+<img width="1549" height="555" alt="image" src="https://github.com/user-attachments/assets/72655043-4cb4-44e1-95a1-043d3cac4ad8" />
 ## ALTER
 
 Modify an existing table structure.
@@ -122,6 +127,7 @@ Commands
 insert into employees (id, name, position, salary, dateofjoining)
 values (1, 'mahi', 'developer', 50000, '2025-10-22');
 
+<img width="1495" height="478" alt="image" src="https://github.com/user-attachments/assets/511422dc-41dd-48b1-9273-00f78ef21d91" />
 
 ## UPDATE
 
@@ -141,6 +147,7 @@ where name = 'mahi';
 select * from employees;
 select name, salary from employees where salary > 40000;
 
+<img width="1621" height="519" alt="image" src="https://github.com/user-attachments/assets/935dd575-bc3e-45ba-955f-d876d1e71dbc" />
 
 # DCL (Data Control Language)
 
@@ -184,6 +191,7 @@ select count(*) as total_employees,
        min(salary) as lowest_salary
 from employees; 
 
+<img width="1620" height="757" alt="image" src="https://github.com/user-attachments/assets/9675693a-6ba8-4b22-afa5-f04a17dbd361" />
 
 ## Grouping Data with group by
 

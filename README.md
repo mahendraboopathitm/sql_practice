@@ -383,6 +383,22 @@ having,group by,order by
 
 # operators:
 
+## arithmtic operator:
+
+<img width="1606" height="692" alt="image" src="https://github.com/user-attachments/assets/7718da41-7e88-4718-965d-21c1fb427a30" />
+
+## comparision operator:
+
+<img width="1613" height="604" alt="image" src="https://github.com/user-attachments/assets/0c326534-18a4-402d-a6f5-263f6b513f57" />
+
+
+## logical operator:
+
+<img width="1620" height="598" alt="image" src="https://github.com/user-attachments/assets/0c3651be-c935-4a5a-a218-ed3e9c904c70" />
+
+## string comparator operator:
+
+<img width="1611" height="381" alt="image" src="https://github.com/user-attachments/assets/6e5da58b-1f14-40f5-997d-fbb9ac6317d0" />
 
 
 

@@ -379,9 +379,9 @@ AVG,SUM,MIN,MAX,COUNT
 <img width="1603" height="590" alt="image" src="https://github.com/user-attachments/assets/002a1bc2-7ad3-4fa4-86e2-ce0c38fd7df4" />
 
 
-#sql clause:
+# sql clause:
 
-having,group by,order by
+## having,group by,order by
 
 <img width="1593" height="616" alt="image" src="https://github.com/user-attachments/assets/7c64cd61-091a-43dd-8caa-c007c54ac0bc" />
 

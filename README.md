@@ -316,7 +316,83 @@ create table customers (
 );
 
 
+# joins:
+## database and table creation:
+<img width="1596" height="742" alt="image" src="https://github.com/user-attachments/assets/7b1ab497-078c-4e8c-9c8a-70887fa67e0b" />
 
+<img width="1574" height="743" alt="image" src="https://github.com/user-attachments/assets/cabd9109-b5bf-42fa-bd07-9c7a68bbef3f" />
+
+<img width="1418" height="473" alt="image" src="https://github.com/user-attachments/assets/a6ed51ea-7d81-4dc5-892c-9dbf2940a5ce" />
+
+
+
+##  INNER JOIN
+
+ Combines rows from both tables where there is a matching dept_id in both.
+
+
+ <img width="1587" height="365" alt="image" src="https://github.com/user-attachments/assets/82952b20-cc08-4dde-a2d9-528c87e0a35d" />
+
+ ## left join
+
+ Retrieving all records from the left table and matching records from the right table.
+
+ <img width="1619" height="428" alt="image" src="https://github.com/user-attachments/assets/ec6e7c0f-6b8d-45fb-84df-eee7e25790fe" />
+
+
+ ## right join:
+
+ Retrieving all records from the right table and matching records from the left table.
+
+ <img width="1613" height="395" alt="image" src="https://github.com/user-attachments/assets/ae059023-34fa-4725-9f57-26b3fb6bb453" />
+
+ ## outer join
+
+ Retrieving all records when there is a match in either the left or right table.
+
+ <img width="1614" height="370" alt="image" src="https://github.com/user-attachments/assets/7dcbb9de-ba39-4c4d-93fb-17e05a0378ce" />
+
+
+ ## cross join
+
+ Producing the Cartesian product of two tables.
+
+<img width="1607" height="677" alt="image" src="https://github.com/user-attachments/assets/97630096-913f-450b-8382-0d844d600d0c" />
+
+
+# sql aggregate function:
+
+AVG,SUM,MIN,MAX,COUNT
+
+<img width="1606" height="534" alt="image" src="https://github.com/user-attachments/assets/65c01621-f8da-4ac7-81f1-e1aaf3552ca8" />
+
+<img width="1605" height="368" alt="image" src="https://github.com/user-attachments/assets/f95f9891-0ffd-49a1-93e9-5c6eb68e3cf9" />
+
+<img width="1603" height="590" alt="image" src="https://github.com/user-attachments/assets/002a1bc2-7ad3-4fa4-86e2-ce0c38fd7df4" />
+
+
+#sql clause:
+
+having,group by,order by
+
+<img width="1593" height="616" alt="image" src="https://github.com/user-attachments/assets/7c64cd61-091a-43dd-8caa-c007c54ac0bc" />
+
+<img width="1614" height="414" alt="image" src="https://github.com/user-attachments/assets/e2f6f611-11ad-47f9-9e20-6640d0fdff4f" />
+
+<img width="1584" height="755" alt="image" src="https://github.com/user-attachments/assets/b7b74c2e-88ad-41ad-ae05-dbdcb90ee836" />
+
+# operators:
+
+
+
+
+ 
+
+
+
+
+
+ 
 
 
 

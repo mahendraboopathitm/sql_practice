@@ -409,15 +409,88 @@ AVG,SUM,MIN,MAX,COUNT
 <img width="1611" height="381" alt="image" src="https://github.com/user-attachments/assets/6e5da58b-1f14-40f5-997d-fbb9ac6317d0" />
 
 
+# Procedure:
+
+## CREATE PROCEDURE
+
+Used to create a stored procedure — a reusable block of SQL code that can take input parameters, execute queries, and return results.
+ 
+<img width="1610" height="544" alt="image" src="https://github.com/user-attachments/assets/7d2749c7-87a1-4649-bf25-f26c646f4426" />
+
+## ALTER PROCEDURE
+
+Used to modify an existing stored procedure (change logic, parameters, etc.).
+
+
+<img width="1614" height="589" alt="image" src="https://github.com/user-attachments/assets/7fdd490e-2c2e-40f4-8e3f-7cd5edb9d2b9" />
 
  
+##  DROP PROCEDURE
+
+Used to delete an existing stored procedure from the database.
+
+<img width="1613" height="356" alt="image" src="https://github.com/user-attachments/assets/fc6eaa66-10b2-4b51-8c1b-069c94de72ff" />
+
+##  EXECUTE (or EXEC)
+
+Used to run (execute) a stored procedure.
+
+<img width="1606" height="788" alt="image" src="https://github.com/user-attachments/assets/ec49c6be-5d4f-4dc6-8f2e-887f13e68721" />
+# Subquery
+
+A Subquery is a query inside another query.
+It is used when you need to use the result of one query as input for another.
+
+## Example 1: Find employees earning more than the average salary
+
+<img width="1617" height="502" alt="image" src="https://github.com/user-attachments/assets/cdcc26ff-c819-4972-991a-a46b3c4bcade" />
+
+## Find the students who scored above the average marks in any course.
+
+<img width="1615" height="663" alt="image" src="https://github.com/user-attachments/assets/0af48b68-4210-4f94-9e14-90f65903ec0d" />
+
+# common table expressions:
+
+## CTE (Common Table Expression)
+
+A CTE (Common Table Expression) is a temporary result set that you can reference within a single SQL statement.
+It makes complex queries easier to read, organize, and reuse.
+
+## Find the average marks of students in each department using a CTE.
+
+<img width="1615" height="639" alt="image" src="https://github.com/user-attachments/assets/8110c5fb-1082-4d3e-a7ea-db792fa54569" />
+
+The CTE named DeptAvg first calculates the average marks of each department.
+Then the main query joins that result with the Departments table to display the department name and its average marks.
+
+## List students and their total marks in all courses, but only include those who scored above 250 total.
+
+<img width="1618" height="634" alt="image" src="https://github.com/user-attachments/assets/c8c65062-d6f4-4200-bab3-4610b3bd42b5" />
 
 
+The CTE (StudentTotal) calculates total marks for each student.
+The main query filters only those with total marks greater than 150.
+
+# views:
+
+A View is a virtual table based on the result of an SQL query.
+It doesn’t store data physically — it just stores the query definition.
+You can query a view just like a real table.
+
+ ## CREATE VIEW: Creating views for simplified querying
+
+## Example 1: Creating a View
+
+<img width="1590" height="495" alt="image" src="https://github.com/user-attachments/assets/42699878-ddff-40e7-89c0-eb3866a7ebab" />
+
+<img width="1618" height="623" alt="image" src="https://github.com/user-attachments/assets/5a789d5b-1862-452a-8d32-65c0bb793374" />
+
+## DROP VIEW: Removing views
+
+If you no longer need a view, you can delete it using the DROP VIEW command.
 
 
-
- 
-
+<img width="1616" height="317" alt="image" src="https://github.com/user-attachments/assets/be1c82ed-2e22-485d-8919-f693ef66c909" />
 
 
 
